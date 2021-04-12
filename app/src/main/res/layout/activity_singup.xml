@@ -8,11 +8,11 @@
     tools:context=".MainActivity2">
 
     <Button
-        android:id="@+id/btnLogin2"
+        android:id="@+id/btnJoin"
         android:layout_width="169dp"
         android:layout_height="54dp"
         android:layout_marginBottom="100dp"
-        android:text="Jogin"
+        android:text="Join"
         app:backgroundTint="#0CA2E6"
         app:iconTint="#0D0D12"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
         app:srcCompat="@drawable/icon_cat" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/editTextEmail"
         android:layout_width="348dp"
         android:layout_height="44dp"
         android:layout_marginStart="32dp"
@@ -58,14 +58,14 @@
         android:background="#4D2196F3"
         android:text="Email Address"
         android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintStart_toStartOf="@+id/editTextEmail"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextPasswordSingUp"
         android:layout_width="352dp"
         android:layout_height="44dp"
         android:layout_marginStart="32dp"
@@ -74,11 +74,11 @@
         android:layout_marginRight="32dp"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintBottom_toTopOf="@+id/editTextConfirmPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
     <TextView
         android:id="@+id/textView9"
@@ -87,15 +87,15 @@
         android:background="#4D2196F3"
         android:text="Password"
         android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPasswordSingUp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPasswordSingUp"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintStart_toStartOf="@+id/editTextPasswordSingUp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/editTextConfirmPassword"
         android:layout_width="349dp"
         android:layout_height="45dp"
         android:layout_marginStart="32dp"
@@ -110,28 +110,28 @@
         tools:layout_editor_absoluteY="384dp" />
 
     <TextView
-        android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#4D2196F3"
-        android:text="TextView"
+        android:text="Confirm Password"
         android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword2"
+        app:layout_constraintBottom_toTopOf="@+id/editTextConfirmPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editTextConfirmPassword"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextConfirmPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPasswordSingUp"
         app:layout_constraintVertical_bias="1.0" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBoxSecurityPolitics"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:text="Segurity Politics"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogin2"
+        android:layout_marginBottom="84dp"
+        android:checked="false"
+        android:text="Security Politics"
+        app:layout_constraintBottom_toTopOf="@+id/btnJoin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintHorizontal_bias="0.115"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

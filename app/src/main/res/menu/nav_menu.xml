@@ -14,4 +14,5 @@
         android:id="@+id/ico"
         android:icon="@drawable/ic_settings"
         android:title="Settings" />
+    <item android:icon="@drawable/ic_whatsapp_image_2021_04_10_at_3_08_09_pm" />
 </menu>

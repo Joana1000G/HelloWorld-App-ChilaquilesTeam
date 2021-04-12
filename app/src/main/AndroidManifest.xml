@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloChilaquilesTeam">
-        <activity android:name=".SingUpActivity"></activity>
+        <activity android:name=".IntentActivity"></activity>
+        <activity android:name=".ListActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SingUpActivity" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".LoingActivity">
             <intent-filter>
