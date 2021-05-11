@@ -49,7 +49,8 @@ public class SingUpActivity extends AppCompatActivity {
         // && and
         // || or
 
-        if (!email.equals("") && !password.equals("") && confirmPassword.equals(password) && securityPolitics) {
+        if (!email.equals("") && !password.equals("") && confirmPassword.equals(password)
+                && securityPolitics) {
             NavigateToHome();
         } else {
             Toast.makeText(this,"Incorrect data",Toast.LENGTH_SHORT).show();

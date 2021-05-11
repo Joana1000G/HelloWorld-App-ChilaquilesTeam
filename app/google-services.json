@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1651702805",
+    "project_id": "chillaquies-team",
+    "storage_bucket": "chillaquies-team.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1651702805:android:72062d3dd64d5f4ec1a21c",
+        "android_client_info": {
+          "package_name": "com.example.hellochilaquilesteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1651702805-83o26tk7k39t8khl5264mitaue7cuppv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hellochilaquilesteam",
+            "certificate_hash": "c7ddeffaf2e5accc94d6823187994831bbdca9fa"
+          }
+        },
+        {
+          "client_id": "1651702805-jeh4u48lfphknilma4ka1tsuc4hfugf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnWLzUwQoIhyYOFxsJlJA9121ITFgdsBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1651702805-jeh4u48lfphknilma4ka1tsuc4hfugf1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

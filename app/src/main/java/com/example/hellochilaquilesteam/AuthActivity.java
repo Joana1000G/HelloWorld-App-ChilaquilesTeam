@@ -11,15 +11,13 @@ import android.view.View;
 import android.content.Intent;
 
 
-public class LoingActivity extends AppCompatActivity {
+public class AuthActivity extends AppCompatActivity {
 
     //Variables de Instancia tienen relación con la pantalla
     private EditText editTextUsername; // Lenguaje fuertemente tipado
     private EditText editTextPassword;
     private Button btnLogin;
     private Button btnSingUp;
-
-    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,14 +80,14 @@ public class LoingActivity extends AppCompatActivity {
     }
 
     private void navigateToSingUp(View view) {
-        Intent intentSingUp = new  Intent(LoingActivity.this,SingUpActivity.class);
+        Intent intentSingUp = new  Intent(AuthActivity.this,SingUpActivity.class);
         startActivity(intentSingUp);
 
     }
 
     private void navigateToHome() {
         // Creo la intenion de abrir el home  desde la loing activity
-        Intent intentHome = new Intent(LoingActivity.this,MainActivity2.class); // Constructor predeterminado o parametrisado (ciertos atributos)
+        Intent intentHome = new Intent(AuthActivity.this,MainActivity2.class); // Constructor predeterminado o parametrisado (ciertos atributos)
 
         // Ir a la nueva pantalla a la que queremos ir
         startActivity(intentHome);

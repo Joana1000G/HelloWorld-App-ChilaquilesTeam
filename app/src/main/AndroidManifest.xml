@@ -9,17 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloChilaquilesTeam">
-        <activity android:name=".IntentActivity"></activity>
-        <activity android:name=".ListActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".SingUpActivity" />
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".LoingActivity">
+        <activity android:name=".BookDetailActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".CreateBookActivity" />
+        <activity android:name=".FirebaseSingUpActivity" />
+        <activity android:name=".AuthActivity" />
+        <activity android:name=".IntentActivity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SingUpActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".LoingActivity">
+
         </activity>
     </application>
 
